@@ -1,29 +1,36 @@
 # Active Directory Troubleshooting Scenario Index
 
-This index tracks practical troubleshooting articles planned for the repository.
+This index tracks practical troubleshooting articles in the repository.
+
+## Phase 1 — Completed
+
+| ID | Scenario | Category | Article | Status |
+|---:|---|---|---|---|
+| AD-001 | Domain Controller will not boot | Domain Controllers | [Open](scenarios/AD-001-Domain-Controller-Wont-Boot.md) | ✅ Complete |
+| AD-002 | Kerberos logon failures | Authentication | [Open](scenarios/AD-002-Kerberos-Logon-Failures.md) | ✅ Complete |
+| AD-003 | Active Directory replication failures | Replication | [Open](scenarios/AD-003-AD-Replication-Failures.md) | ✅ Complete |
+| AD-004 | Missing DNS SRV records | DNS | [Open](scenarios/AD-004-to-AD-008-Core-Services.md#ad-004--missing-dns-srv-records) | ✅ Complete |
+| AD-005 | Group Policy not applying | Group Policy | [Open](scenarios/AD-004-to-AD-008-Core-Services.md#ad-005--group-policy-not-applying) | ✅ Complete |
+| AD-006 | FSMO role holder unreachable | FSMO | [Open](scenarios/AD-004-to-AD-008-Core-Services.md#ad-006--fsmo-role-holder-unreachable) | ✅ Complete |
+| AD-007 | SYSVOL not replicating with DFSR | SYSVOL / DFSR | [Open](scenarios/AD-004-to-AD-008-Core-Services.md#ad-007--sysvol-not-replicating-with-dfsr) | ✅ Complete |
+| AD-008 | Secure channel or trust relationship failure | Authentication | [Open](scenarios/AD-004-to-AD-008-Core-Services.md#ad-008--secure-channel-or-trust-relationship-failure) | ✅ Complete |
+| AD-009 | NTDS.dit database growing too large | Database | [Open](scenarios/AD-009-to-AD-012-Database-LDAP-Security.md#ad-009--ntdsdit-database-growing-too-large) | ✅ Complete |
+| AD-010 | LDAP queries timing out | LDAP | [Open](scenarios/AD-009-to-AD-012-Database-LDAP-Security.md#ad-010--ldap-queries-timing-out) | ✅ Complete |
+| AD-011 | Repeated account lockouts | Security | [Open](scenarios/AD-009-to-AD-012-Database-LDAP-Security.md#ad-011--repeated-account-lockouts) | ✅ Complete |
+| AD-012 | Organizational Unit permission issues | Delegation | [Open](scenarios/AD-009-to-AD-012-Database-LDAP-Security.md#ad-012--organizational-unit-permission-issues) | ✅ Complete |
+| AD-013 | Kerberos errors caused by clock skew | Authentication | [Open](scenarios/AD-013-to-AD-016-Time-Recovery-Performance-Promotion.md#ad-013--kerberos-errors-caused-by-clock-skew) | ✅ Complete |
+| AD-014 | AD Recycle Bin restore failure | Recovery | [Open](scenarios/AD-013-to-AD-016-Time-Recovery-Performance-Promotion.md#ad-014--ad-recycle-bin-restore-failure) | ✅ Complete |
+| AD-015 | High LSASS CPU usage | Performance | [Open](scenarios/AD-013-to-AD-016-Time-Recovery-Performance-Promotion.md#ad-015--high-lsass-cpu-usage) | ✅ Complete |
+| AD-016 | New Domain Controller promotion failure | Domain Controllers | [Open](scenarios/AD-013-to-AD-016-Time-Recovery-Performance-Promotion.md#ad-016--new-domain-controller-promotion-failure) | ✅ Complete |
+| AD-017 | Fine-Grained Password Policy ignored | Security | [Open](scenarios/AD-017-to-AD-020-Policy-RPC-Locator-Lingering.md#ad-017--fine-grained-password-policy-ignored) | ✅ Complete |
+| AD-018 | RPC Server Unavailable | Networking | [Open](scenarios/AD-017-to-AD-020-Policy-RPC-Locator-Lingering.md#ad-018--rpc-server-unavailable) | ✅ Complete |
+| AD-019 | Client cannot locate a Domain Controller | DNS / Locator | [Open](scenarios/AD-017-to-AD-020-Policy-RPC-Locator-Lingering.md#ad-019--client-cannot-locate-a-domain-controller) | ✅ Complete |
+| AD-020 | Lingering objects after restore | Replication | [Open](scenarios/AD-017-to-AD-020-Policy-RPC-Locator-Lingering.md#ad-020--lingering-objects-after-restore) | ✅ Complete |
+
+## Phase 2 — Backlog
 
 | ID | Scenario | Category | Status |
 |---:|---|---|---|
-| AD-001 | Domain Controller will not boot | Domain Controllers | Planned |
-| AD-002 | Kerberos logon failures | Authentication | Planned |
-| AD-003 | Active Directory replication failures | Replication | Planned |
-| AD-004 | Missing DNS SRV records | DNS | Planned |
-| AD-005 | Group Policy not applying | Group Policy | Planned |
-| AD-006 | FSMO role holder unreachable | FSMO | Planned |
-| AD-007 | SYSVOL not replicating with DFSR | SYSVOL / DFSR | Planned |
-| AD-008 | Secure channel or trust relationship failure | Authentication | Planned |
-| AD-009 | NTDS.dit database growing too large | Database | Planned |
-| AD-010 | LDAP queries timing out | LDAP | Planned |
-| AD-011 | Repeated account lockouts | Security | Planned |
-| AD-012 | Organizational Unit permission issues | Delegation | Planned |
-| AD-013 | Kerberos errors caused by clock skew | Authentication | Planned |
-| AD-014 | AD Recycle Bin restore failure | Recovery | Planned |
-| AD-015 | High LSASS CPU usage | Performance | Planned |
-| AD-016 | New Domain Controller promotion failure | Domain Controllers | Planned |
-| AD-017 | Fine-Grained Password Policy ignored | Security | Planned |
-| AD-018 | RPC Server Unavailable | Networking | Planned |
-| AD-019 | Client cannot locate a Domain Controller | DNS / Locator | Planned |
-| AD-020 | Lingering objects after restore | Replication | Planned |
 | AD-021 | SYSVOL and NETLOGON shares missing | SYSVOL / DFSR | Backlog |
 | AD-022 | Event ID 2213 pauses DFSR replication | SYSVOL / DFSR | Backlog |
 | AD-023 | Duplicate SPN causes Kerberos failure | Authentication | Backlog |
@@ -57,7 +64,7 @@ This index tracks practical troubleshooting articles planned for the repository.
 
 ## Standard article format
 
-Every scenario should contain:
+Every full scenario should contain:
 
 1. Overview
 2. Symptoms
